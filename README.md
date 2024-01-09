@@ -2,12 +2,24 @@
 
 ## Content
 * [General info](#general-info)
+* [Structure](#structure)
 * [Packages](#packages)
 
 
 ## General info
 ##### A very simple online shop that has been mostly on the back-end part. Including the main page of the site and the product order page and a construction page for the payment portal and account application for user management.
 
+## Structure
+```
+myshop/
+├── account/
+├── cart/
+├── myshop/
+├── orders/
+├── payment/
+├── shop/
+└── manage.py
+```
 ## Packages
 
 * Python 3.10
@@ -19,4 +31,5 @@
 * six 1.16.0
 * sqlparse 0.4.3
 * tinycss2 1.2.1
-"# online-shop" 
+
+
